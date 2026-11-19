@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Build outputs
+out/
+dist/
+*.tsbuildinfo
+
+# Render outputs (keep the example video, ignore new renders)
+*.mp4
+!examples/beer-flood/beer-short-final.mp4
+
+# Audio work files (keep the example mix + stems)
+audio/_cache/
+audio/__pycache__/
+*.pyc
+__pycache__/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.env
+.env.*
